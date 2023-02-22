@@ -113,6 +113,11 @@ body {
   font-weight: 700;
   display: flex;
   justify-content: space-between;
+  background-color: black;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  
+
 }
 
 .div-1, .div-2, .div-3 {
@@ -120,13 +125,19 @@ body {
   color: #fff;
   line-height: 1.5em;
   font-size: 1.6em;
-  background-color: #f16059;
+
   height: 300px;
   display: flex;
   width: 33%;
   justify-content: center;
   align-items: center;
+  padding: 5px;
+  margin: 5px;
 
+
+}
+.div-1, .div-2 {
+    border-right: 2px solid white;
 }
 
 
