@@ -96,49 +96,89 @@ textarea {
    ========================================================================== */
 
 
-html {
-  background-color: #fff;
-  height: 100%;
-}
 
-body {
-  font-family: 'Source Sans Pro', sans-serif;
-  padding: 2em;
-  font-size: 1.25em;
-  height: 100%;
-}
-
-.wrapper {
-  /*add display:flex and set justify-content to space-between*/
-  font-weight: 700;
-  display: flex;
-  justify-content: space-between;
-  background-color: black;
-  border-top: 2px solid black;
-  border-bottom: 2px solid black;
+   html {
+    background-color: #fff;
+    height: 100%;
+    width: 100%;
+  }
   
+  body {
+    font-family: 'Fira Sans', sans-serif;
+    padding: 0 2em;
+    font-size: 1.25em;
+    height: 100%;
+    color: #fff;
+  }
 
-}
+  #header {
+    font-family: 'Amatic SC', cursive;
+    color: black;
+    background-color: #fbe3e8;
+  }
+  
+  header,
+  footer {
+   
+    height: 80px;
+    width: 100%;
+ 
+    
+    
+  }
+  
+  main {
+    background: url(../img/background-computer.jpg);
+   height: 400px;
+    width: 100%;
+    color: hotpink;
+    line-height: 2em;   
+  }
+  
+  header,
+  footer,
+  main {
+      display: flex;
+      justify-content: center;
+      align-items:center;
+    font-size:2em ;
+      padding-top: 50px;
+      margin:5px;
+      font-family: 'Amatic SC', cursive;
+  
+  }
+  
+  .flex-container {
+      display: flex;
+      justify-content: space-between;
+      align-items:center;
+      flex-flow: wrap;
+      
+  
+  }
+  
+  .flex-items {
+    color:black;
+    line-height: 1.5em;
+    font-size: 1.4em;
+    background-color: #e6f6f5;
+    width: 30%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    padding: 10px;
+    border: 2px solid hotpink;
+    
+    
+  }
+  footer {
+    background-color:#DADD98;
+    color: hotpink
+  }
 
-.div-1, .div-2, .div-3 {
-  /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
-  color: #fff;
-  line-height: 1.5em;
-  font-size: 1.6em;
 
-  height: 300px;
-  display: flex;
-  width: 33%;
-  justify-content: center;
-  align-items: center;
-  padding: 5px;
-  margin: 5px;
-
-
-}
-.div-1, .div-2 {
-    border-right: 2px solid white;
-}
+  
 
 
 
